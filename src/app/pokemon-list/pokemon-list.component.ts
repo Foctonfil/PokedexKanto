@@ -8,8 +8,10 @@ import { NgFor } from '@angular/common';
   templateUrl: './pokemon-list.component.html',
   styleUrl: './pokemon-list.component.sass'
 })
+
 export class PokemonListComponent {
 
   pokemon = PokemonCardComponent
-  pokemons = ["Bulbasaur"];
+  pokemons = ["Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise", "Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Pidgey", "Pidgeotto", "Pidgeot", "Rattata", "Raticate", "Spearow", "Fearow", "Ekans", "Arbok", "Pikachu", "Raichu"];
+  
 }
